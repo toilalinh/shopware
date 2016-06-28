@@ -1,0 +1,62 @@
+[2016-06-24 05:02:07] core.ERROR: exception 'Exception' with message 'Signature is not valid' in /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Components/UpdateCheck.php:94
+Stack trace:
+#0 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Components/UpdateCheck.php(123): ShopwarePlugins\SwagUpdate\Components\UpdateCheck->verifyBody(NULL, '<!DOCTYPE html>...')
+#1 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Controllers/Backend/SwagUpdate.php(512): ShopwarePlugins\SwagUpdate\Components\UpdateCheck->checkUpdate('4.3.3', Array)
+#2 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Controllers/Backend/SwagUpdate.php(269): Shopware_Controllers_Backend_SwagUpdate->fetchUpdateVersion()
+#3 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_SwagUpdate->popupAction()
+#4 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('popupAction')
+#5 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#6 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Kernel.php(145): Enlight_Controller_Front->dispatch()
+#7 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(471): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#8 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Components/HttpCache/AppCache.php(257): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#9 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(242): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#10 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Components/HttpCache/AppCache.php(103): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#11 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/shopware.php(109): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#12 {main} [] {"uid":"899ac56"}
+[2016-06-24 05:06:30] core.ERROR: exception 'Exception' with message 'Signature is not valid' in /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Components/UpdateCheck.php:94
+Stack trace:
+#0 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Components/UpdateCheck.php(123): ShopwarePlugins\SwagUpdate\Components\UpdateCheck->verifyBody(NULL, '<!DOCTYPE html>...')
+#1 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Controllers/Backend/SwagUpdate.php(512): ShopwarePlugins\SwagUpdate\Components\UpdateCheck->checkUpdate('4.3.3', Array)
+#2 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Controllers/Backend/SwagUpdate.php(269): Shopware_Controllers_Backend_SwagUpdate->fetchUpdateVersion()
+#3 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_SwagUpdate->popupAction()
+#4 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('popupAction')
+#5 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#6 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Kernel.php(145): Enlight_Controller_Front->dispatch()
+#7 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(471): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#8 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Components/HttpCache/AppCache.php(257): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#9 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(242): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#10 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Components/HttpCache/AppCache.php(103): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#11 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/shopware.php(109): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#12 {main} [] {"uid":"5313a00"}
+[2016-06-24 05:08:23] core.ERROR: exception 'Exception' with message 'Signature is not valid' in /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Components/UpdateCheck.php:94
+Stack trace:
+#0 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Components/UpdateCheck.php(123): ShopwarePlugins\SwagUpdate\Components\UpdateCheck->verifyBody(NULL, '<!DOCTYPE html>...')
+#1 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Controllers/Backend/SwagUpdate.php(512): ShopwarePlugins\SwagUpdate\Components\UpdateCheck->checkUpdate('4.3.3', Array)
+#2 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Controllers/Backend/SwagUpdate.php(269): Shopware_Controllers_Backend_SwagUpdate->fetchUpdateVersion()
+#3 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_SwagUpdate->popupAction()
+#4 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('popupAction')
+#5 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#6 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Kernel.php(145): Enlight_Controller_Front->dispatch()
+#7 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(471): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#8 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Components/HttpCache/AppCache.php(257): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#9 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(242): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#10 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Components/HttpCache/AppCache.php(103): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#11 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/shopware.php(109): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#12 {main} [] {"uid":"030d8d6"}
+[2016-06-24 08:40:10] core.ERROR: exception 'Zend_Http_Client_Adapter_Exception' with message 'Read timed out after 5 seconds' in /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Zend/Http/Client/Adapter/Socket.php:511
+Stack trace:
+#0 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Zend/Http/Client/Adapter/Socket.php(329): Zend_Http_Client_Adapter_Socket->_checkSocketReadTimeout()
+#1 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Zend/Http/Client.php(1075): Zend_Http_Client_Adapter_Socket->read()
+#2 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Components/UpdateCheck.php(117): Zend_Http_Client->request()
+#3 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Controllers/Backend/SwagUpdate.php(512): ShopwarePlugins\SwagUpdate\Components\UpdateCheck->checkUpdate('4.3.3', Array)
+#4 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Plugins/Default/Backend/SwagUpdate/Controllers/Backend/SwagUpdate.php(269): Shopware_Controllers_Backend_SwagUpdate->fetchUpdateVersion()
+#5 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_SwagUpdate->popupAction()
+#6 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('popupAction')
+#7 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#8 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Kernel.php(145): Enlight_Controller_Front->dispatch()
+#9 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(471): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#10 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Components/HttpCache/AppCache.php(257): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#11 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(242): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#12 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/engine/Shopware/Components/HttpCache/AppCache.php(103): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#13 /Users/Shared/development/projects_git/webshop/shopware-4/shopware/shopware.php(109): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main} [] {"uid":"8fc1abd"}

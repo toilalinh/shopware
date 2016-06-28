@@ -1,0 +1,10 @@
+#listing-5col .artbox {width: 149px}
+#listing-5col .artbox .inner {height: 325px;width: 120px;}
+#listing-5col .artbox .actions {position: absolute;bottom: 10px; width: 120px;}
+#listing-5col .artbox .artbox_thumb {height: 115px;margin-top:0}
+#listing-5col .artbox a.compare_add_article, #listing-5col .artbox a.more, #listing-5col .artbox .buynow {width:109px;}
+#listing-5col .artbox a.compare_add_article, #listing-5col .artbox a.more {width:109px;}
+#listing-5col .artbox div.ico_esd {right: 8px;top:24px;}
+#listing-5col .artbox p.price {bottom:40px;}
+#listing-5col .artbox p.pseudoprice {bottom: 52px;}
+#listing-5col .artbox p.desc { margin: 0 0 .8em }
